@@ -14,6 +14,9 @@
 		CE14250E20B0B76E0043AF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE14250C20B0B76E0043AF08 /* LaunchScreen.storyboard */; };
 		CE14251920B0B76E0043AF08 /* GROUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14251820B0B76E0043AF08 /* GROUPTests.swift */; };
 		CE14252420B0B76F0043AF08 /* GROUPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14252320B0B76F0043AF08 /* GROUPUITests.swift */; };
+		CE14253220B0B7CC0043AF08 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14253120B0B7CC0043AF08 /* CollectionViewCell.swift */; };
+		CE14253420B0C2860043AF08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14253320B0C2860043AF08 /* MainViewController.swift */; };
+		CE14253620B0C33A0043AF08 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE14253520B0C33A0043AF08 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CE14251F20B0B76E0043AF08 /* GROUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GROUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14252320B0B76F0043AF08 /* GROUPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GROUPUITests.swift; sourceTree = "<group>"; };
 		CE14252520B0B76F0043AF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE14253120B0B7CC0043AF08 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE14253320B0C2860043AF08 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE14253520B0C33A0043AF08 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				CE14250320B0B76D0043AF08 /* AppDelegate.swift */,
 				CE14250520B0B76D0043AF08 /* ViewController.swift */,
+				CE14253320B0C2860043AF08 /* MainViewController.swift */,
 				CE14250720B0B76D0043AF08 /* Main.storyboard */,
+				CE14253520B0C33A0043AF08 /* CustomButton.swift */,
+				CE14253120B0B7CC0043AF08 /* CollectionViewCell.swift */,
 				CE14250A20B0B76E0043AF08 /* Assets.xcassets */,
 				CE14250C20B0B76E0043AF08 /* LaunchScreen.storyboard */,
 				CE14250F20B0B76E0043AF08 /* Info.plist */,
@@ -258,6 +267,9 @@
 			files = (
 				CE14250620B0B76D0043AF08 /* ViewController.swift in Sources */,
 				CE14250420B0B76D0043AF08 /* AppDelegate.swift in Sources */,
+				CE14253220B0B7CC0043AF08 /* CollectionViewCell.swift in Sources */,
+				CE14253420B0C2860043AF08 /* MainViewController.swift in Sources */,
+				CE14253620B0C33A0043AF08 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
